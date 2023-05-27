@@ -33,18 +33,19 @@
 .task5 .item1 {
   background-color: red;
   position: relative;
-  top: 65px;
+  top: 20px;
   left: 20px;
   z-index: 1;
 }
 .task5 .item2 {
   background-color: blue;
-  transform: translateX(40px);
+  transform: translate(40px, -50px);
+  z-index: 3;
 }
 .task5 .item3 {
   background-color: green;
   position: relative;
-  top: -125px;
+  top: -170px;
   z-index: 2;
 }
 
